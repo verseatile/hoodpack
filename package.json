@@ -1,0 +1,21 @@
+{
+  "name": "es6-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "skrilla": "nodemon server.js -e js,html,css",
+    "build": "webpack"
+  },
+  "author": "omd",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "webpack": "^2.5.1"
+  }
+}
